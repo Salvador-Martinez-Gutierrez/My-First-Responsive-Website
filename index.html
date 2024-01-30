@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Akademia SpartPunk</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="Logic.js"></script>
+</head>
+<body>
+
+    <nav>
+        <a href="#Akademia" class="image-button">
+            <img src="Images/Logo.png" alt="SpartPunk Army Logo">
+        </a>
+        <input type="checkbox" id="menu-toggle" style="display: none;">
+        <label for="menu-toggle" class="menu-hamburger">
+            <span class="menu-icon-bars"><i class="fa-solid fa-bars"></i></span>
+            <span class="menu-icon-cross"><i class="fa-solid fa-xmark"></i></span> 
+        </label>
+        <div>
+            <a href="#Biblioteka">Biblioteka</a>
+            <a href="#FAQs">FAQs</a>
+            <a href="https://twitter.com/spartpunks" target="_blank" class="buttom"  media="Images/Twitter">Twitter</a>
+            <a href="https://discord.com/invite/keJQ8gAcv9" target="_blank" class="buttom" media="Discord">Discord</a>
+        </div>
+    </nav>
+
+    <!-- Sección Akademia -->
+    <section id="Akademia">
+        <div class="Title">
+            <h1>Aprende sobre<br><span id="dynamicWord">IA Generativa</span><br>gratis</h1>
+            <a href="#Biblioteka" class="buttom">Empieza ya</a>
+        </div>
+        <div class="Image">
+            <img src="Images/Panteon2.png" alt="Panteon" class="flotante">
+        </div>
+    </section>
+
+    <!-- Sección Biblioteka -->
+    <section id="Biblioteka">
+        <h2>La Biblioteka</h2>
+        <h3>Habilidades para la era digital</h3>
+        <div class="autoplay">
+            <div class="flex-item">
+                <h4>IA Generativa</h4>
+                <p>
+                  Mejora tu productividad gracias a GPT4. 
+                </p>
+                <button href="https://discord.com/invite/keJQ8gAcv9" target="_blank" class="buttom" media="Saber más">Coming Soon</button>
+            </div>
+            <div class="flex-item">
+                <h4>Automatización NoCode</h4>
+                <p>
+                  Automatiza tu trabajo sin necesidad de saber programar.
+                </p>
+                <button href="https://discord.com/invite/keJQ8gAcv9" target="_blank" class="buttom" media="Saber más">Coming Soon</button>
+            </div>
+            <div class="flex-item">
+                <h4>Marketing Web3</h4>
+                <p>
+                  Descubre el potencial de las comunidades tokenizadas.
+                </p>
+                <button href="https://discord.com/invite/keJQ8gAcv9" target="_blank" class="buttom" media="Saber más">Coming Soon</button>
+            </div>
+        </div>       
+
+        <!-- Sección FAQs -->
+    </section>
+
+    <section id="FAQs">
+
+        <h2>FAQs</h2>
+
+        <!-- FAQ 1 -->
+        <input type="checkbox" id="faq1-toggle" class="faq-toggle">
+        <div class="faq-item">
+            <label for="faq1-toggle" class="faq-question">
+                <h3>¿Todos los cursos son gratuitos?</h3>
+            </label>
+            <p>Sí, las 3 formaciones son totalmente gratuitas.</p>
+        </div>
+
+        <!-- FAQ 2 -->
+        <input type="checkbox" id="faq2-toggle" class="faq-toggle">
+        <div class="faq-item">
+            <label for="faq2-toggle" class="faq-question">
+                <h3>¿Por donde se imparten las formaciones?</h3>
+            </label>
+            <p>El formato de las formaciones todavía no se ha decidido.</p>
+        </div>
+        
+        <!-- FAQ 3 -->
+        <input type="checkbox" id="faq3-toggle" class="faq-toggle">
+        <div class="faq-item">
+            <label for="faq3-toggle" class="faq-question">
+                <h3>¿Cómo puedo apoyar el proyecto?</h3>
+            </label>
+            <p>Puedes seguirnos en nuestras redes sociales y/o comprar uno de nuestros activos digitales en <a href="https://zuse.market/collection/0.0.1384991">Sentx Marketplace</a></p>
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://twitter.com/spartpunks" target="_blank">Twitter</a>
+            <a href="https://discord.com/invite/keJQ8gAcv9" target="_blank">Discord</a>
+        </div>
+        <p>© 2023 La Akademia SpartPunk. <br> Todos los derechos reservados.</p>
+        <div>
+            <img src="Images/Banner Web.png" alt="Banner SpartPunks">
+        </div>
+    </footer>
+
+
+    </section>
+</body>
+</html>
